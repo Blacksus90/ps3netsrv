@@ -1,4 +1,4 @@
-FROM alpine
+FROM debian:jessie
 
 ADD https://github.com/aldostools/webMAN-MOD/blob/master/_Projects_/ps3netsrv/bins/Linux/ps3netsrv_linuxX86_64 /
 
